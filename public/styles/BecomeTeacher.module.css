@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-SemiBold.woff");
+  font-style: normal;
+  font-weight: 700;
+}
+.HeadingBox {
+  background-color: red;
+}
+.titleFont {
+  font-family: "Metropolis";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 50px;
+  /* or 111% */
+
+  color: #0a033c;
+}
+.mentorSvg {
+  width: 318px;
+  height: 218px;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.leftImage {
+  width: 43%;
+  height: auto;
+
+  background: #ffdeda;
+  border-radius: 15px;
+}
+.rightContent {
+  width: 57%;
+  background-color: royalblue;
+}

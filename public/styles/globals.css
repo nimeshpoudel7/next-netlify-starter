@@ -1,0 +1,261 @@
+.upButten {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.titleStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 8rem;
+}
+.titleStyle h1 {
+  max-width: 500px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 55px;
+  text-align: center;
+  color: #0a033c;
+}
+.titleStyle p {
+  max-width: 700px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 30px;
+  text-align: center;
+  color: #5d5a6f;
+}
+.plusSvgWrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.lessonCardWrap {
+  padding: 1.9rem 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  flex-direction: column;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+.lessonOne {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+  justify-content: center;
+}
+.lessonCardWrap,
+.lessonOne {
+  display: flex;
+  align-items: center;
+}
+.lessonCardWrap h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 25px;
+  text-align: center;
+  color: #0a033c;
+}
+.lessonCardWrap p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 30px;
+  text-align: center;
+  color: #5d5a6f;
+  max-width: 250px;
+}
+.endCall {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.heroSection {
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.heroSectionContent {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.heroSectionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  gap: 8px;
+  height: fit-content;
+}
+.heroSectionTitle h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  font-family: "Poppins";
+  line-height: 150%;
+  color: #160041;
+}
+.heroSectionTitle p {
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  line-height: 150%;
+  color: #160041;
+}
+.heroCTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background: #703edb;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.34);
+  border-radius: 57px;
+  gap: 15px;
+  width: fit-content;
+}
+.heroCTA span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Poppins";
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.CTAbtn {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff7f56;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+#contentSvg {
+  margin-top: 5rem;
+}
+.classTypeBtnWrap {
+  padding: 15px;
+  width: 20rem;
+  padding-right: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.classTypeBtnWrap span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 25px;
+  color: #0a033c;
+}
+.App {
+  background-color: #f6f2fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.maxWidthHold {
+  width: 1100px;
+}
+.classTypeButton {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 2rem;
+}
+.navWrapperr {
+  background-color: #f6f2fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: none;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: none;
+}
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  border-bottom: none;
+  /* -webkit-transition: border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); */
+  /* transition: border-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); */
+}
+.coursesList li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.coursesList ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+}
+
+/* post */
+.mentorBtn {
+  padding: 0.8em 2em;
+  color: #0a033c;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.mentorBtnActive {
+  background: #ff6652;
+  box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+  color: white;
+}
+.mentorCardBtn:hover {
+  background-color: #703edb !important;
+  color: white !important;
+}
+.mentorBtn:hover {
+  background: #ff6652;
+  box-shadow: 0px 15px 50px rgba(255, 102, 82, 0.2);
+  color: white;
+}
+.classDetailBtn:hover {
+  background-color: #703edb;
+  color: white !important;
+}

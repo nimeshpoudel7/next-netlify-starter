@@ -1,0 +1,520 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("/fonts/Metropolis-Bold.woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Metropolis-regular";
+  src: url("/fonts/Metropolis-Regular.woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Metropolis-Medium";
+  src: url("/fonts/Metropolis-Medium.woff");
+}
+
+.square {
+  border-radius: 0px;
+}
+
+.jumbotron {
+  background-color: hsl(0, 0%, 94%);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ant-card-meta-title {
+  font-size: 12px;
+}
+
+.markdown-preview img {
+  max-width: 300px;
+}
+
+.left-bottom-radius {
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* override bootstrap input textarea style */
+/* input,
+textarea,
+.list-group-item {
+  background-color: #000 !important;
+  color: white !important;
+  border: 1px solid #333 !important;
+} */
+
+/* markdown body img */
+.single-post img {
+  max-width: 100% !important;
+  display: block;
+  margin: 0 auto;
+}
+
+/* markdown blockquote */
+blockquote {
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/* typewriter effect */
+.typewriter > div {
+  overflow: hidden;
+  /* border-right: 3px solid #1890ff; */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.example {
+  display: none !important;
+}
+
+.certificate {
+  border: 20px solid #0c5280;
+  padding: 25px;
+  height: 600px;
+  position: relative;
+}
+
+.certificate:after {
+  content: "";
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  background-image: url(https://image.ibb.co/ckrVv7/water_mark_logo.png);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.certificate-header > .logo {
+  width: 80px;
+  height: 80px;
+}
+
+.certificate-title {
+  text-align: center;
+}
+
+.certificate-body {
+  text-align: center;
+}
+
+.titCent {
+  font-weight: 400;
+  font-size: 48px;
+  color: #0c5280;
+}
+
+.student-name {
+  font-size: 24px;
+}
+
+.certificate-content {
+  margin: 0 auto;
+  width: 750px;
+}
+
+.about-certificate {
+  width: 380px;
+  margin: 0 auto;
+}
+
+.topic-description {
+  text-align: center;
+}
+.certificate-container {
+  size: 7in 9.25in;
+  margin: 27mm 16mm 27mm 16mm;
+}
+
+body {
+  background-color: #f6f2fd;
+}
+.contain {
+  display: flex;
+  min-height: 85vh;
+  justify-content: center;
+  align-items: center;
+}
+.divModal {
+  width: auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  gap: 2rem;
+}
+.form {
+  width: 370px;
+}
+.lefImg {
+  width: 355px;
+}
+.loginLine {
+  width: 1px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(10, 3, 60, 0) 0%,
+    #0a033c 51.56%,
+    rgba(10, 3, 60, 0) 100%
+  );
+}
+
+.btnlogin {
+  background-color: #703edb;
+  color: #ffffff;
+  height: 49px;
+  border-radius: 10px;
+}
+.footLogin {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.footTxt {
+  font-family: Metropolis-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 30px;
+  color: #0a033c;
+}
+.footTxt2 {
+  font-family: Metropolis-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 30px;
+  color: #703edb;
+}
+.textLogin {
+  font-family: Metropolis;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  /* or 125% */
+
+  color: #0a033c;
+}
+.labelLoging {
+  font-family: Metropolis-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #0a033c;
+}
+
+.inputText {
+  font-family: Metropolis-regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5d5a6f;
+  background: #ffffff;
+  border: 1px solid #dedde4;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.btn-text {
+  font-family: Metropolis-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+.inputWrapper {
+  position: relative;
+}
+.iconUser {
+  position: absolute;
+  padding-top: 1rem;
+  left: 10px;
+}
+
+.form-control {
+  display: inline;
+}
+
+/* navabr */
+
+.navBar {
+  display: flex;
+  background-color: rgb(246, 242, 253);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0px;
+  box-shadow: inset 0px -2px 0px #e1d9ef;
+}
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.logo h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.07em;
+  color: #110034;
+}
+.logo span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff613f;
+}
+/* .navContent {
+  display: flex;
+  gap: 32px;
+} */
+.navContenta {
+  font-family: Metropolis-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+
+  letter-spacing: 0.07em;
+  color: #110034 !important;
+}
+.active a {
+  font-family: Metropolis-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.07em;
+  color: #703edb !important;
+}
+
+/* .navWatch {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.navWatch span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  color: #110034;
+}
+.watchIcon {
+  width: 54px;
+  height: 36px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem 0;
+  box-shadow: inset 0px -2px 0px #e1d9ef;
+}
+
+.navContent {
+  display: flex;
+  gap: 32px;
+}
+.navContent {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  color: #110034;
+}
+.navWatch {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.navWatch span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  color: #110034;
+}
+.watchIcon {
+  width: 54px;
+  height: 36px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+.ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after {
+  background: red !important;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.heroSection {
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.heroSectionContent {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.heroSectionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  gap: 8px;
+  height: fit-content;
+}
+.heroSectionTitle h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  font-family: "Poppins";
+  line-height: 150%;
+  color: #160041;
+}
+.heroSectionTitle p {
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  line-height: 150%;
+  color: #160041;
+}
+.heroCTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background: #703edb;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.34);
+  border-radius: 57px;
+  gap: 15px;
+  width: fit-content;
+}
+.heroCTA span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Poppins";
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.CTAbtn {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff7f56;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+}
+#contentSvg {
+  margin-top: 5rem;
+}
+.ant-menu-item a:hover {
+  color: #703edb;
+}
+
+/* home class */
+.bannerWrap {
+  /* width: 100%; */
+  padding-top: 100px;
+  padding-right: 76px;
+  position: relative;
+  background-color: transparent;
+  z-index: 0;
+}
+.teachingKidsWrap {
+  background: #ffffff;
+  box-shadow: 0px 50px 170px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 1.5rem;
+
+  z-index: 5;
+}
+.teachingKids {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.teachingKids .teachingImg {
+  width: 100%;
+  border-radius: 20px;
+}
+.kidImgWrap {
+  position: absolute;
+  left: 20px;
+  z-index: 10;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  bottom: 20px;
+  border-radius: 10px;
+}
+.littleKid {
+  width: 145px;
+  height: 190px;
+  /* background-color: tomato; */
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.anticon {
+  display: contents !important;
+}
